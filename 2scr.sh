@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#name=jym
+name=jym
 echo $name
 a=11
 b=10
