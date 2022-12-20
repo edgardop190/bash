@@ -1,6 +1,6 @@
-names=`cat names.txt`
 set -x
-cat names.txt
+read txtName 
+names=`cat $txtName.txt`
 
 for name in $names
 do 
@@ -8,9 +8,4 @@ do
     then
         echo $name
     fi
-done
-
-for nam in `ls`
-do 
-    echo $nam
 done
